@@ -252,11 +252,12 @@ while true;do
 			echo "startrange 2 -recover 0"
 			echo "stoprange 2 "
 			echo "startall"
-			echo "stopall"
-	
+			#echo "stopall"
+			echo "stopall   "  #here i have do a little change, 这里我做了一些改变测试下
 			;;
 		*)
 			printf "others\n"		
 	esac
 	printf "\n"
 done
+
