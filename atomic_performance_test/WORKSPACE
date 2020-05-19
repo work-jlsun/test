@@ -1,6 +1,3 @@
-workspace(name = "curve")
-
-
 # proto_library, cc_proto_library, and java_proto_library rules implicitly
 # depend on @com_google_protobuf for protoc and proto runtimes.
 # This statement defines the @com_google_protobuf repo.
@@ -82,10 +79,10 @@ bind(
 
 bind(
     name = "butil",
-    actual = "@com_netease_storage_gerrit_curve_curve_brpc//:butil",
+    actual = "@incubator-brpc//:butil",
 )
 
 bind(
     name = "bthread",
-    actual = "@com_netease_storage_gerrit_curve_curve_brpc//:bthread",
+    actual = "@incubator-brpc//:bthread",
 )
