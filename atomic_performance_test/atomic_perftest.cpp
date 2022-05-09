@@ -29,8 +29,10 @@ void* AddThreadFunc(void *arg) {
     }
     timer.stop();
     atomicArg->timeElapsedMs.fetch_add(timer.m_elapsed());
+
 }
 
+//dsdasd
 
 TEST_F(ExecutionQueueTest, atomic_performance_cmp) {
     LOG(INFO) << "\n\n\n" << "atomic performance cmp: \n\n";
